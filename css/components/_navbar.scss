@@ -1,0 +1,38 @@
+@import "../vars";
+
+.navbar {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-height: 10rem;
+  z-index: 10;
+  color: #fff;
+  padding: 0 5rem;
+  transition: all .2s ease-in-out;
+  .logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  .links {
+    .link {
+      font-weight: bold;
+      transition: all .1s linear;
+      &:not(:last-of-type) {
+        margin-right: 2rem;
+      }
+      &.active,
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  .socials {
+    span {
+      &:nth-of-type(2) {
+        margin: 0 2rem;
+      }
+    }
+  }
+}

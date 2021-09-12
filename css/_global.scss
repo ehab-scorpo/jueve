@@ -1,0 +1,38 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body { 
+  font-size: 1.6rem;
+  font-family: DM Sans,sans-serif;
+  overflow-x: hidden;
+}
+
+li{
+  list-style: none;
+}
+
+a, a:visited, a:link{
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  color: #686868
+}
+
+.img {
+  line-height: 0;
+}
+
+.section-padding {
+  padding-top: 10rem;
+}

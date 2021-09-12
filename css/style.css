@@ -1,0 +1,221 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: DM Sans,sans-serif;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a, a:visited, a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  color: #686868;
+}
+
+.img {
+  line-height: 0;
+}
+
+.section-padding {
+  padding-top: 10rem;
+}
+
+.background {
+  background-color: #fe5900;
+}
+
+.color {
+  color: #fe5900;
+}
+
+.heading .title {
+  position: relative;
+  top: 0;
+  left: 6rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.heading .title:before {
+  content: '';
+  width: 4rem;
+  height: .2rem;
+  background: #fe5900;
+  position: absolute;
+  top: .7rem;
+  left: -6rem;
+}
+
+.heading h2 {
+  font-size: 4rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.heading p:last-child {
+  font-size: 2.5rem;
+}
+
+.background {
+  background-color: #fe5900;
+}
+
+.color {
+  color: #fe5900;
+}
+
+.navbar {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-height: 10rem;
+  z-index: 10;
+  color: #fff;
+  padding: 0 5rem;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.navbar .logo {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.navbar .links .link {
+  font-weight: bold;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.navbar .links .link:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+.navbar .links .link.active, .navbar .links .link:hover {
+  color: #fe5900;
+}
+
+.navbar .socials span:nth-of-type(2) {
+  margin: 0 2rem;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/hero_1-min.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero_1-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+  color: #fff;
+}
+
+.header .content {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.header .content h1 {
+  font-size: 7rem;
+  margin-bottom: 4rem;
+}
+
+.header .content .video .icon {
+  line-height: 0;
+  border: 1px solid #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.header .content .arrow-down {
+  margin-top: 8rem;
+  -webkit-animation: move 2s ease-in-out infinite;
+          animation: move 2s ease-in-out infinite;
+}
+
+.header .content .arrow-down .west {
+  -webkit-transform: rotate(-90deg) translateY(0);
+          transform: rotate(-90deg) translateY(0);
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(2.5rem);
+            transform: translateY(2.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(2.5rem);
+            transform: translateY(2.5rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.bio {
+  width: 100vw;
+  margin-top: -20rem;
+  height: calc(100vh + 12.5rem);
+  background: url("/images/dark_wall.png");
+}
+
+.bio .text {
+  margin-top: 10rem;
+  width: 65%;
+}
+
+.bio .text h2 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.services .right-section .icon {
+  font-size: 5rem;
+}
+
+.services .right-section .service-title {
+  margin: 3rem 0 2rem;
+}
+
+.services .right-section .service {
+  margin-bottom: 5rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+.bio {
+  width: 100vw;
+  margin-top: -20rem;
+  // 100vh + (the bio margin which is 20rem - navbar height which is 7.5rem) to be dead centered
+  height: calc(100vh + 12.5rem);
+  background: url('/images/dark_wall.png');
+  .text {
+    margin-top: 10rem;
+    width: 65%;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: 100;
+      line-height: 1.4;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import '../vars';
+$padding: 6rem;
+
+.heading {
+  .title {
+    position: relative;
+    top: 0;
+    left: $padding;
+    font-size: 1.3rem;
+    font-weight: 500;
+    &:before {
+      content: '';
+      width: 4rem;
+      height: .2rem;
+      background: $primary;
+      position: absolute;
+      top: .7rem;
+      left: -$padding
+    }
+  }
+
+  h2 {
+    font-size: 4rem;
+    margin: 1.5rem 0 3rem;
+  }
+
+  p:last-child {
+    font-size: 2.5rem;
+  }
+}
